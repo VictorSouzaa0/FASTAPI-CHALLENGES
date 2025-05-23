@@ -1,0 +1,2 @@
+from models.instructor_model import InstructorModel
+from models.students_model import StudentModel
