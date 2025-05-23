@@ -6,6 +6,7 @@ class InstructorModel(settings.DBBaseModel):
 
     id: int = Column(Integer(), primary_key=True,autoincrement=True)
     name: str = Column(String(256))
+    last_name: str = Column(String(256))
     age: int = Column(Integer())
     image: str = Column(String(2048))
     
